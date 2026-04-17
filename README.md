@@ -34,7 +34,7 @@ supply_chain_analysis/
 ├── supply_chain.db              # SQLite database with analytical queries
 │
 ├── analysis.py                  # Data cleaning, feature engineering & KPI summary
-├── visualizations.py            # Dashboard — 6 charts
+├── visualizations.py            # Dashboard with 6 charts
 ├── database.py                  # SQLite persistence & analytical SQL queries
 │
 └── supply_chain_dashboard.png   # Exported dashboard
@@ -63,11 +63,11 @@ supply_chain_analysis/
 
 **Supplier Quality**
 - Supplier 1 is the highest performer: lowest defect rate (1.804%) and responsible for 2 of the top 5 most profitable SKUs
-- Supplier 5 is the highest risk: highest defect rate (2.665%) and appears in 4 of the top 10 high-defect products — despite competitive manufacturing costs
+- Supplier 5 is the highest risk: highest defect rate (2.665%) and appears in 4 of the top 10 high-defect products, despite competitive manufacturing costs
 
 **Logistics Efficiency**
-- Sea freight is the most cost-efficient mode (avg €4.97) and fastest (avg 12.2 days) — yet accounts for only 17 shipments vs 29 by Road
-- Air freight is the most expensive (avg €6.02) and slowest (avg 18.3 days) — an inefficiency worth investigating
+- Sea freight is the most cost-efficient mode (avg €4.97) and fastest (avg 12.2 days), yet accounts for only 17 shipments vs 29 by Road
+- Air freight is the most expensive (avg €6.02) and slowest (avg 18.3 days), an inefficiency worth investigating
 
 ---
 
